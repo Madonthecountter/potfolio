@@ -5,11 +5,11 @@ import instagram from "./assets/images/instagram.svg";
 export const Description = "";
 export const socials = [
   { name: "twitter", link: "https://twitter.com", image: twitter },
-  { name: "github", link: "https://github.com/donkachii", image: github },
+  { name: "github", link: "https://github.com/madonthecountter", image: github },
   { name: "linkedin", link: "https://linkedin.com/in/komolafe-leye-667478220", image: linkedin },
   {
     name: "instagram",
-    link: "https://twitter.com/donkachii",
+    link: "https://twitter.com/",
     image: instagram,
   },
 ];
