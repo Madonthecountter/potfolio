@@ -80,7 +80,7 @@ const Footer = ({
           <div className="d-flex align-items-center justify-content-center py-4">
             <aside className="footer-social">
               <div className="d-flex justify-content-center">
-                <h4 className="">don_kachi</h4>
+                {/* <h4 className="">Leye</h4> */}
               </div>
 
               <div className="d-flex justify-content-center py-4">
@@ -93,7 +93,7 @@ const Footer = ({
               <div className="d-flex justify-content-center">
                 <p className="footer-text">
                   All Rights Reserved <img src={copyright} alt="copyright" />{" "}
-                  2021 Kachi <img className="pl-3" src={love} alt="love" />
+                  2021 Leye <img className="pl-3" src={love} alt="love" />
                 </p>
               </div>
             </aside>

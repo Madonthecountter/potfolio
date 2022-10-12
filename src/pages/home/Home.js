@@ -127,14 +127,14 @@ const Home = () => {
                     >
                       Hi, I'm{" "}
                       <Typewriter
+                       options={{ loop: true }}
                         onInit={(typewriter) => {
                           typewriter
 
-                            .typeString("<span>David</span>")
-
+                            .typeString("<span>Leye</span>")
                             .pauseFor(2000)
                             .deleteAll()
-                            .typeString("<span>Onyekachi</span>")
+                            .typeString("<span> Leye </span>")
                             .start();
                         }}
                       />
@@ -170,7 +170,7 @@ const Home = () => {
 
       <section id="about" className="dave-about row m-0">
         <article className="d-flex flex-column col-md-4 ">
-          <img src={daveImg} alt="David" className="david-img" height="588px" />
+          {/* <img src={daveImg} alt="David" className="david-img" height="588px" /> */}
 
           {/* <img
             className="scroll"
@@ -195,8 +195,8 @@ const Home = () => {
             processes. Bringing forth expertise in design, installation,
             testing, and maintenance of web systems. <br /> Equipped with a
             diverse and promising skill-set. Proficient in an assortment of
-            technologies, including JavaScript, React]S, Node]S, PostgreSQL,
-            Python, and PHP. Able to effectively self-manage during independent
+            technologies, including JavaScript, React]S, Node]S and PostgreSQL.
+             Able to effectively self-manage during independent
             projects, as well as collaborate in a team setting. <br /> I am
             seeking a challenging career with a progressive organization.
           </p>
